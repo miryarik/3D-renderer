@@ -4,11 +4,11 @@ A basic and lightweight, custom 3D renderer implemented in C using raylib, featu
 This project is a basic 3D renderer written in C using the Raylib library. The renderer demonstrates fundamental 3D rendering techniques such as matrix transformations, vector operations, and rendering of 3D models. It serves as a learning tool for understanding the basics of computer graphics and 3D rendering pipelines.
 
 ## Project Structure
-- `main.c`: Primary source code for the renderer
-- `matrix.h`: Matrix transformation utilities
-- `vector.h`: Vector manipulation header
-- `3dModels/`: Directory for 3D model assets
-- `build.sh`: Build script for the project
+- `main.c` : Primary source code for the renderer
+- `matrix.h` : Matrix transformation utilities
+- `vector.h` : Vector manipulation header
+- `3dModels/` : Directory for 3D model assets
+- `build.sh` : Build script for the project
 
 ## Prerequisites
 - raylib library
