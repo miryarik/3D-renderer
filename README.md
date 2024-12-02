@@ -30,5 +30,15 @@ chmod +x build.sh
 ./main
 ```
 
+## Loading Models
+```bash
+# Enter the path to model file in line if-statement at line 136 as :
+if(!LoadModelFromObjectFile(&meshCube, "<path_to_model_file>")) {
+...
+}
+```
+## Result with a sample model
+![loaded monkey.obj](monkey-model.png)
+
 ## Contributing
 Contributions are welcome. Please open an issue or submit a pull request.
